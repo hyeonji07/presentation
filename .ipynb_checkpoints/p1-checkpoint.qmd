@@ -4,11 +4,11 @@ format:
     height: 450
 ---
 
-## Title
+## 프레젠테이션 맛보기
 
 ::: {.panel-tabset}
 
-### Tab A
+### Tab 1
 
 ```{python}
 #| echo: true
@@ -26,9 +26,9 @@ ax.grid(True)
 plt.show()
 ```
 
-### Tab B
+### Tab 2
 
-- asdf asdf
+- 탭 이름도 바꿀 수 있나 test~
 - 샬라샬라~
 
 :::
