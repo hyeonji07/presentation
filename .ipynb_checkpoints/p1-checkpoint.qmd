@@ -1,7 +1,7 @@
 ---
-format:
-  revealjs:
-    height: 450
+title: "Quarto에서 뽑아먹기"
+subtitle: "json 파일 raw데이터 어떻게 다운 받는지 다시 확인하기"
+format: revealjs
 ---
 
 ## 프레젠테이션 맛보기
@@ -28,7 +28,7 @@ plt.show()
 
 ### Tab 2
 
-- 탭 이름도 바꿀 수 있나 test~
+- 의문 : 가상환경 r에 reticulate 라이브러리를 설치하긴 했지만, p1.qmd에서 라이브러리를 안불러왔는데, 그냥 실행이 되네..? 이게 뭐지..?
 - 샬라샬라~
 
 :::
