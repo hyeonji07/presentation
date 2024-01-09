@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "p1.html#프레젠테이션-맛보기",
+    "href": "p1.html#프레젠테이션-맛보기",
+    "title": "",
+    "section": "프레젠테이션 맛보기",
+    "text": "프레젠테이션 맛보기\n\nTab 1Tab 2\n\n\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\n탭 이름도 바꿀 수 있나 test~\n샬라샬라~"
+  },
+  {
+    "objectID": "p1.html#interactive-slides",
+    "href": "p1.html#interactive-slides",
+    "title": "",
+    "section": "Interactive Slides",
+    "text": "Interactive Slides\nTurn presentations into applications with Observable and Shiny. Use component layout to position inputs and outputs.\n\n\nviewof talentWeight = Inputs.range([-2, 2], { value: 0.7, step: 0.01, label: \"talent weight\" })\nviewof looksWeight = Inputs.range([-2, 2], { value: 0.7, step: 0.01, label: \"looks weight\" })\nviewof minimum = Inputs.range([-2, 2], { value: 1, step: 0.01, label: \"min fame\" })\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimport { plotActors } from './actors.js';\nplotActors(actors, talentWeight, looksWeight, minimum)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Observable, Shiny, Component Layout"
+  }
+]
