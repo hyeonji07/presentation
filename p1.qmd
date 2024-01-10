@@ -1,6 +1,6 @@
 ---
 title: "Quarto에서 뽑아먹기"
-subtitle: "json 파일 raw데이터 어떻게 다운 받는지 다시 확인하기"
+subtitle: "사이즈 조절하는 방법 찾아보기"
 format: revealjs
 ---
 
