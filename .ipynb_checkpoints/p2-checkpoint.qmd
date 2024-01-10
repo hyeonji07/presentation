@@ -1,0 +1,34 @@
+---
+title: "Python 코드만 있는 애"
+subtitle: "커널 뭐로 잡는지 확인하기"
+format: revealjs
+---
+
+## 프레젠테이션 맛보기
+
+::: {.panel-tabset}
+
+### Tab 1
+
+```{python}
+#| echo: true
+#| code-line-numbers: "|6|9"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+### Tab 2
+
+- 의문 : 가상환경 r에 reticulate 라이브러리를 설치하긴 했지만, p1.qmd에서 라이브러리를 안불러왔는데, 그냥 실행이 되네..? 이게 뭐지..?
+- 샬라샬라~
+
+:::
